@@ -99,3 +99,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 Made with ❤️ by [Koteshwar Rao Agathamoodi](https://github.com/koteshwar-agathamoodi)
+
+### Deployment Note
+
+If deploying to Netlify, this project includes a `public/_redirects` file to handle client-side routing. This prevents 404 errors when refreshing pages like `/admin`.

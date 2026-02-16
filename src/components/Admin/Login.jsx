@@ -21,8 +21,8 @@ const Login = () => {
 
         const inputHash = await hashPassword(password);
         const SECURE_HASHES = [
-            'c4603edc20442182bd886104f21828f00c146374ec7c8f3d699e330c146374ec7c', // admin@2004
-            '88fa0d759f845b47c044c207b9733a1e2617781075d656041137072626266661'  // developer
+            'c4603edc20442182bd886111171233f02e9b32a630adc4e25cd313fa6316dd95',
+            '88fa0d759f845b47c044c2cd44e29082cf6fea665c30c146374ec7c8f3d699e3'
         ];
 
         if (SECURE_HASHES.includes(inputHash)) {
